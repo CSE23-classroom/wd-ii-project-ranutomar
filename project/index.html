@@ -8,214 +8,323 @@
 </head>
 <body>
 
-  <header class="top-header">
-    <div class="container header-flex">
-      <div class="logo">
-        <img
-          src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
-          alt="Flipkart logo"
-        />
-        <span>Explore <b>Plus</b> ✨</span>
+  <header class="site-header">
+    <div class="topbar container">
+      <div class="brand-wrap">
+        <div class="brand-pill brand-main">
+          <img
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+            alt="Flipkart"
+          />
+        </div>
+        <div class="brand-pill brand-travel">
+          <span>✈</span>
+          <strong>Travel</strong>
+        </div>
       </div>
 
-      <div class="search-box">
-        <input type="text" placeholder="Search for products, brands and more" />
-        <button type="button">🔍</button>
-      </div>
-
-      <div class="header-links">
-        <div class="login">Login</div>
-        <div class="cart">🛒 Cart</div>
-        <div class="seller">Become a Seller</div>
+      <div class="location">
+        <span>📍</span>
+        <strong>Location not set</strong>
+        <a href="#">Select delivery location</a>
       </div>
     </div>
+
+    <div class="searchbar-wrap container">
+      <div class="searchbar">
+        <span class="search-icon">⌕</span>
+        <input type="text" placeholder="Search for Products, Brands and More" />
+      </div>
+
+      <div class="header-actions">
+        <div class="action login">👤 Login <span>▾</span></div>
+        <div class="action">More <span>▾</span></div>
+        <div class="action">🛒 Cart</div>
+      </div>
+    </div>
+
+    <nav class="categories container">
+      <div class="cat active">
+        <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" alt="For You" />
+        <span>For You</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/892/892458.png" alt="Fashion" />
+        <span>Fashion</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Mobiles" />
+        <span>Mobiles</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/3050/3050416.png" alt="Beauty" />
+        <span>Beauty</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Electronics" />
+        <span>Electronics</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/619/619153.png" alt="Home" />
+        <span>Home</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331970.png" alt="Appliances" />
+        <span>Appliances</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/743/743922.png" alt="Toys" />
+        <span>Toys, ba...</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/1046/1046749.png" alt="Food" />
+        <span>Food & H...</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/3127/3127688.png" alt="Auto" />
+        <span>Auto Acc...</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="Two Wheeler" />
+        <span>2 Wheele...</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/428/428562.png" alt="Sports" />
+        <span>Sports & ...</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Books" />
+        <span>Books & ...</span>
+      </div>
+      <div class="cat">
+        <img src="https://cdn-icons-png.flaticon.com/512/2550/2550260.png" alt="Furniture" />
+        <span>Furniture</span>
+      </div>
+    </nav>
   </header>
 
-  <section class="categories">
-    <div class="container category-row">
-      <div class="cat">
-        <img src="https://picsum.photos/seed/category1/96/96" alt="Everyday Needs" loading="lazy" />
-        <p><b>Everyday Needs</b></p>
-      </div>
-      <div class="cat">
-        <img src="https://picsum.photos/seed/category2/96/96" alt="Mobiles & Tablets" loading="lazy" />
-        <p><b>Mobiles & Tablets</b></p>
-      </div>
-      <div class="cat">
-        <img src="https://picsum.photos/seed/category3/96/96" alt="Fashion" loading="lazy" />
-        <p><b>Fashion</b></p>
-      </div>
-      <div class="cat">
-        <img src="https://picsum.photos/seed/category4/96/96" alt="Electronics" loading="lazy" />
-        <p><b>Electronics</b></p>
-      </div>
-      <div class="cat">
-        <img src="https://picsum.photos/seed/category5/96/96" alt="Home & Furniture" loading="lazy" />
-        <p><b>Home & Furniture</b></p>
-      </div>
-      <div class="cat">
-        <img src="https://picsum.photos/seed/category6/96/96" alt="Grocery" loading="lazy" />
-        <p><b>Grocery</b></p>
-      </div>
-    </div>
-  </section>
-
-  <section class="hero">
-    <div class="container hero-box">
-      <img
-        id="heroImage"
-        src="https://picsum.photos/seed/hero1/1200/360"
-        alt="Sale Banner"
-        loading="eager"
-      />
-    </div>
-  </section>
-
-  <section class="deals">
-    <div class="container deals-box">
-      <div class="deals-header">
-        <h2>Best Deals on Smartphones</h2>
-        <button type="button">VIEW ALL</button>
-      </div>
-
-      <div class="deal-products">
-        <div class="deal-card" data-title="iphone 17">
-          <img src="https://picsum.photos/seed/phone1/300/300" alt="iPhone 17" loading="lazy" />
-          <h4>iPhone 17</h4>
-          <p>From ₹79,999</p>
+  <main>
+    <section class="hero container">
+      <div class="hero-grid">
+        <div class="hero-card hero-large">
+          <img id="heroImage" alt="Hero banner" />
         </div>
 
-        <div class="deal-card" data-title="samsung galaxy z fold 7">
-          <img src="https://picsum.photos/seed/phone2/300/300" alt="Samsung Galaxy Z Fold 7" loading="lazy" />
-          <h4>Samsung Galaxy Z Fold 7</h4>
-          <p>From ₹69,999</p>
+        <div class="hero-card hero-medium">
+          <img
+            src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1200&q=80"
+            alt="Hero banner 2"
+            loading="lazy"
+          />
         </div>
 
-        <div class="deal-card" data-title="motorola edge">
-          <img src="https://picsum.photos/seed/phone3/300/300" alt="Motorola Edge" loading="lazy" />
-          <h4>Motorola Edge</h4>
-          <p>From ₹22,999</p>
-        </div>
-
-        <div class="deal-card" data-title="vivo t2">
-          <img src="https://picsum.photos/seed/phone4/300/300" alt="Vivo T2" loading="lazy" />
-          <h4>Vivo T2</h4>
-          <p>From ₹15,999</p>
-        </div>
-
-        <div class="deal-card" data-title="poco x6">
-          <img src="https://picsum.photos/seed/phone5/300/300" alt="Poco X6" loading="lazy" />
-          <h4>Poco X6</h4>
-          <p>From ₹12,999</p>
+        <div class="hero-card hero-small">
+          <img
+            src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1200&q=80"
+            alt="Hero banner 3"
+            loading="lazy"
+          />
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="deals">
-    <div class="container deals-box">
-      <div class="deals-header">
-        <h2>Best of Electronics</h2>
-        <button type="button">VIEW ALL</button>
+    <section class="container top-text-row">
+      <div>Smart projector</div>
+      <div>Stainless steel bott</div>
+      <div>Sturdy & stylish</div>
+    </section>
+
+    <section class="container deal-block yellow">
+      <h2>People also viewed</h2>
+      <div class="product-row">
+        <article class="product-card" data-title="kitchen rack">
+          <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=900&q=80" alt="Kitchen rack" />
+          <div class="product-meta">
+            <p>Top Deals</p>
+            <strong>Special offer</strong>
+          </div>
+        </article>
+
+        <article class="product-card" data-title="toy car">
+          <img src="https://images.unsplash.com/photo-1517232115160-ff93364542dd?auto=format&fit=crop&w=900&q=80" alt="Toy car" />
+          <div class="product-meta">
+            <p>Grab Big Discounts!</p>
+            <strong>Min.40% Off</strong>
+          </div>
+        </article>
+
+        <article class="product-card" data-title="saree">
+          <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80" alt="Saree" />
+          <div class="product-meta">
+            <p>grab on deals</p>
+            <strong>Under ₹299</strong>
+          </div>
+        </article>
+
+        <article class="product-card" data-title="storage box">
+          <img src="https://images.unsplash.com/photo-1616628182506-0fb1b8a6d1c0?auto=format&fit=crop&w=900&q=80" alt="Storage box" />
+          <div class="product-meta">
+            <p>Top Picks</p>
+            <strong>Special offer</strong>
+          </div>
+        </article>
       </div>
+    </section>
 
-      <div class="deal-products">
-        <div class="deal-card" data-title="boat nirvana headphones">
-          <img src="https://picsum.photos/seed/electronics1/300/300" alt="Boat Nirvana Headphones" loading="lazy" />
-          <h4>Boat Nirvana Headphones</h4>
-          <p>From ₹1,999</p>
-        </div>
-
-        <div class="deal-card" data-title="macbook air">
-          <img src="https://picsum.photos/seed/electronics2/300/300" alt="MacBook Air" loading="lazy" />
-          <h4>MacBook Air</h4>
-          <p>From ₹39,999</p>
-        </div>
-
-        <div class="deal-card" data-title="smart watch">
-          <img src="https://picsum.photos/seed/electronics3/300/300" alt="Smart Watch" loading="lazy" />
-          <h4>Smart Watch</h4>
-          <p>From ₹1,499</p>
-        </div>
-
-        <div class="deal-card" data-title="monitors">
-          <img src="https://picsum.photos/seed/electronics4/300/300" alt="Monitors" loading="lazy" />
-          <h4>Monitors</h4>
-          <p>From ₹6,999</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="deals">
-    <div class="container deals-box">
-      <div class="deals-header">
+    <section class="container deal-block orange">
+      <div class="section-head">
         <h2>Fashion Top Deals</h2>
-        <button type="button">VIEW ALL</button>
+        <button type="button">→</button>
       </div>
 
-      <div class="deal-products">
-        <div class="deal-card" data-title="men shirts">
-          <img src="https://picsum.photos/seed/fashion1/300/300" alt="Men Shirts" loading="lazy" />
-          <h4>Men Shirts</h4>
-          <p>Min 50% Off</p>
-        </div>
+      <div class="product-row">
+        <article class="product-card" data-title="sports shoes">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Shoes" />
+          <div class="product-meta">
+            <p>Min. 75% Off</p>
+            <strong>Feel the comfort</strong>
+          </div>
+        </article>
 
-        <div class="deal-card" data-title="sneakers">
-          <img src="https://picsum.photos/seed/fashion2/300/300" alt="Sneakers" loading="lazy" />
-          <h4>Sneakers</h4>
-          <p>Min 40% Off</p>
-        </div>
+        <article class="product-card" data-title="sportswear">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80" alt="Sportswear" />
+          <div class="product-meta">
+            <p>Min. 50% Off</p>
+            <strong>ADIDAS sportswear</strong>
+          </div>
+        </article>
 
-        <div class="deal-card" data-title="women sarees">
-          <img src="https://picsum.photos/seed/fashion3/300/300" alt="Women Sarees" loading="lazy" />
-          <h4>Women Sarees</h4>
-          <p>From ₹799</p>
-        </div>
+        <article class="product-card" data-title="watch">
+          <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80" alt="Watch" />
+          <div class="product-meta">
+            <p>Up to 20% Off</p>
+            <strong>Absolute toughness</strong>
+          </div>
+        </article>
 
-        <div class="deal-card" data-title="watches">
-          <img src="https://picsum.photos/seed/fashion4/300/300" alt="Watches" loading="lazy" />
-          <h4>Watches</h4>
-          <p>From ₹999</p>
-        </div>
+        <article class="product-card" data-title="perfume">
+          <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=80" alt="Perfume" />
+          <div class="product-meta">
+            <p>Popular</p>
+            <strong>Special offer</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container deal-block orange-light">
+      <div class="section-head">
+        <h2>Hair & Skincare Essentials</h2>
+        <button type="button">→</button>
+      </div>
+
+      <div class="product-row">
+        <article class="product-card" data-title="face wash">
+          <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80" alt="Face wash" />
+          <div class="product-meta">
+            <p>Face Wash</p>
+            <strong>Special offer</strong>
+          </div>
+        </article>
+
+        <article class="product-card" data-title="hair clip">
+          <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80" alt="Hair clip" />
+          <div class="product-meta">
+            <p>Hair Claw</p>
+            <strong>Special offer</strong>
+          </div>
+        </article>
+
+        <article class="product-card" data-title="hair care">
+          <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=80" alt="Hair care" />
+          <div class="product-meta">
+            <p>Hair Care</p>
+            <strong>Min 50% Off</strong>
+          </div>
+        </article>
+
+        <article class="product-card" data-title="hair oil">
+          <img src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80" alt="Hair oil" />
+          <div class="product-meta">
+            <p>Hair Oil</p>
+            <strong>Special offer</strong>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container bottom-title">
+      Flipkart - Your go-to place for Online Shopping
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>ABOUT</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Flipkart Stories</a>
+        <a href="#">Press</a>
+        <a href="#">Corporate Information</a>
+      </div>
+
+      <div>
+        <h4>GROUP COMPANIES</h4>
+        <a href="#">Myntra</a>
+        <a href="#">Cleartrip</a>
+        <a href="#">Shopsy</a>
+      </div>
+
+      <div>
+        <h4>HELP</h4>
+        <a href="#">Payments</a>
+        <a href="#">Shipping</a>
+        <a href="#">Cancellation & Returns</a>
+        <a href="#">FAQ</a>
+      </div>
+
+      <div>
+        <h4>CONSUMER POLICY</h4>
+        <a href="#">Cancellation & Returns</a>
+        <a href="#">Terms Of Use</a>
+        <a href="#">Security</a>
+        <a href="#">Privacy</a>
+        <a href="#">Sitemap</a>
+        <a href="#">Grievance Redressal</a>
+        <a href="#">EPR Compliance</a>
+        <a href="#">FSSAI Food Safety</a>
+        <a href="#">Connect App</a>
+      </div>
+
+      <div class="footer-address">
+        <h4>Mail Us:</h4>
+        <p>
+          Flipkart Internet Private Limited,<br />
+          Buildings Alyssa, Begonia &<br />
+          Clove Embassy Tech Village,<br />
+          Outer Ring Road, Devarabeesanahalli Village,<br />
+          Bengaluru, 560103,<br />
+          Karnataka, India
+        </p>
+      </div>
+
+      <div class="footer-address">
+        <h4>Registered Office Address:</h4>
+        <p>
+          Flipkart Internet Private Limited,<br />
+          Buildings Alyssa, Begonia &<br />
+          Clove Embassy Tech Village,<br />
+          Outer Ring Road, Devarabeesanahalli Village,<br />
+          Bengaluru, 560103,<br />
+          Karnataka, India<br />
+          CIN : U51109KA2012PTC066107<br />
+          Telephone: 044-45614700 / 044-67415800
+        </p>
       </div>
     </div>
-  </section>
-
-  <section class="deals">
-    <div class="container deals-box">
-      <div class="deals-header">
-        <h2>Home & Appliances</h2>
-        <button type="button">VIEW ALL</button>
-      </div>
-
-      <div class="deal-products">
-        <div class="deal-card" data-title="refrigerators">
-          <img src="https://picsum.photos/seed/home1/300/300" alt="Refrigerators" loading="lazy" />
-          <h4>Refrigerators</h4>
-          <p>From ₹14,999</p>
-        </div>
-
-        <div class="deal-card" data-title="washing machines">
-          <img src="https://picsum.photos/seed/home2/300/300" alt="Washing Machines" loading="lazy" />
-          <h4>Washing Machines</h4>
-          <p>From ₹12,499</p>
-        </div>
-
-        <div class="deal-card" data-title="microwaves">
-          <img src="https://picsum.photos/seed/home3/300/300" alt="Microwaves" loading="lazy" />
-          <h4>Microwaves</h4>
-          <p>From ₹5,999</p>
-        </div>
-
-        <div class="deal-card" data-title="air conditioners">
-          <img src="https://picsum.photos/seed/home4/300/300" alt="Air Conditioners" loading="lazy" />
-          <h4>Air Conditioners</h4>
-          <p>From ₹24,999</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  </footer>
 
   <script src="script.js"></script>
 </body>
